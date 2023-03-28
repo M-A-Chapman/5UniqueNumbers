@@ -11,7 +11,7 @@ class Program
             var number = Convert.ToInt32(Console.ReadLine());
             if (numbers.Contains(number))
             {
-                System.Console.WriteLine("This number has already been entered, please enter a new number");
+                System.Console.WriteLine("{0} has already been entered, please enter a new number", number);
             }
             else
             {
